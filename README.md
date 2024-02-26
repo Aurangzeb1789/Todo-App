@@ -6,14 +6,14 @@ Todo App is a simple web application designed to help users manage their tasks. 
 <b>Add Task with Date:</b> Users can add tasks with an optional date.<br>
 <b>Persistent Data:</b> Task data is stored in local storage, ensuring that tasks are retained even after the tab is refreshed or the browser is closed. <br>
 <h2>Features </h2>
-1. Open the Todo App web app in your browser.
-2. Enter a task in the input field.
-3. Click the "Add Task" button to add the task to the list.
-4. To delete a task, click the delete button next to the task.
+1. Open the Todo App web app in your browser.<br>
+2. Enter a task in the input field.<br>
+3. Click the "Add Task" button to add the task to the list.<br>
+4. To delete a task, click the delete button next to the task.<br>
 5. For date option click on date icon 
 <h2>Technologies Used</h2>
-HTML
-CSS
-JavaScript
+HTML<br>
+CSS<br>
+JavaScript<br>
 <h2>Live Project</h2>
 You can access the live Todo web app (https://taskforgeapp.netlify.app/).
