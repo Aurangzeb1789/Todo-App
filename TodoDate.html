@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toda App & Date</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+   <link rel="stylesheet" href="todoDateStyle.css">
+</head>
+<body>
+          
+    <div class="container">
+        <div class="header">
+        <a href="index.html" class="icon"><i class="fa-solid fa-house"></i></a>
+        <h1>Todo   <span style=" color: #38b000"> App</span></h1>
+       </div>
+
+    <div class="hero">
+                    <div class="hero1">   <input id="todo-Input" type="text" placeholder="Enter Todo tasks"> </div>
+                    <div class="hero2">   <input id="todo-Date" type="date">  </div>  
+                    <div class="hero3">   <button onclick="addTodo()" class="btn">ADD</button> </div>
+    </div>    
+           <div id="show">
+
+           </div>
+    </div>
+
+      <script src="todaDate.js"></script>
+</body>
+</html>
